@@ -81,7 +81,7 @@ body {
 .block__work {
     margin: 0 auto;
     position: absolute;
-    left: 500px;
+    left: 430px;
     bottom: -110px;
     transform: scale(1.1, 0.9);
 }
@@ -149,24 +149,20 @@ body {
     transform: rotate(-15deg);
     position: absolute;
     left: 123px;
-    top: -12px;
+    top: -14px;
 
-    font-style: normal;
-    font-weight: 750;
-    font-size: 14px;
-    line-height: 20px;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .block__applications
 {
     display: flex;
     background-color: #6A6A6A;
-    padding-bottom: 11.8px;
-    padding-top: 11.8px;
+    padding-bottom: 10.8px;
+    padding-top: 9.8px;
     align-items: center;
     border-radius: 36px;  
     justify-content: center;
@@ -187,16 +183,16 @@ body {
     margin-right: 12px;
 }
 .text__dowload {
-
+    transform: scale(1.3, 0.9);
     color: #FFFFFF;
     font-style: normal;
-    font-weight: 550;
+    font-weight: 450;
     font-size: 12px;
-    letter-spacing: 1.2px;
-    line-height: 16px;
+    letter-spacing: 0.7px;
+    line-height: 16px
 }
 .img__play {
-    margin-right: 12px;
+    margin-right: 16px;
 }
 .link__play
 {
@@ -209,4 +205,12 @@ body {
 .navigation
 {
     margin-top: 30px;
+}
+.start {
+    transform: scale(1.3, 1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Roboto Flex', sans-serif;
+    line-height: 20px;
 }
