@@ -25,11 +25,13 @@ body {
 }
 .main
 {
-   
     position: relative;
     width: 1200px;
     display: flex;
     margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 800px;
 }
 .block__description {
     width: 605px;
@@ -80,9 +82,6 @@ body {
 
 .block__work {
     margin: 0 auto;
-    position: absolute;
-    left: 430px;
-    bottom: -110px;
     transform: scale(1.1, 0.9);
     display: flex;
     align-items: center;
