@@ -71,7 +71,7 @@ body {
 .how__work {
     font-style: normal;
     font-weight: 550;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 20px;
     color: #090909;
     letter-spacing: 0.25px;
@@ -84,6 +84,10 @@ body {
     left: 430px;
     bottom: -110px;
     transform: scale(1.1, 0.9);
+    display: flex;
+    align-items: center;
+    width: 183px;
+    justify-content: space-evenly;
 }
 
 .control-custom {
@@ -128,8 +132,8 @@ body {
     display: block;
     position: absolute;
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     border-radius: 100%;
     background-color: #5337FF;
     top: 50%;
