@@ -32,7 +32,7 @@ body {
     margin: 0 auto;
 }
 .block__description {
-    width: 602px;
+    width: 605px;
     font-style: normal;
     font-weight: 750;
     font-size: 48px;
@@ -40,9 +40,9 @@ body {
     color: #090909;
     margin-bottom: 56px;
     letter-spacing: -0.5px;
-    transform: scale(1.2, 0.8);
+    transform: scale(1.45, 0.9);
     position: relative;
-    left: 70px;
+    left: 139px;
 }
 
 .radio__button {
