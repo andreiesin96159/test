@@ -45,13 +45,6 @@ body {
     left: 70px;
 }
 
-.button__description {
-    border: none;
-    cursor: pointer;
-    background-color: #F5F5F5;
-    margin-right: 24px;
-}
-
 .radio__button {
     list-style-type: none;
     margin-bottom: 22px;
@@ -89,7 +82,7 @@ body {
     margin: 0 auto;
     position: absolute;
     left: 500px;
-    bottom: -190px;
+    bottom: -110px;
     transform: scale(1.1, 0.9);
 }
 
@@ -166,4 +159,54 @@ body {
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.block__applications
+{
+    display: flex;
+    background-color: #6A6A6A;
+    padding-bottom: 11.8px;
+    padding-top: 11.8px;
+    align-items: center;
+    border-radius: 36px;  
+    justify-content: center;
+   
+}
+.text__store {
+    text-align: -webkit-center;
+    width: 90px;
+  
+}
+.link {
+    width: 179px;
+    text-decoration: none;
+    margin-right: 24px;
+}
+.img__apple
+{
+    margin-right: 12px;
+}
+.text__dowload {
+
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 16px;
+}
+.img__play {
+    margin-right: 12px;
+}
+.link__play
+{
+    width: 200px;
+}
+.block__applications:hover
+{
+    background: #5337FF;
+}
+.navigation
+{
+    margin-top: 30px;
 }
